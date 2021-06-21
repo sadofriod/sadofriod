@@ -1,0 +1,16 @@
+name: WakaTime Readme
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 19 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: c3f52807-6e16-4a24-9e19-42fee6e6e9d7

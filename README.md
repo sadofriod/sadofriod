@@ -2,7 +2,7 @@
 
 
 
-- 🔭 I’m currently working on <img height="50px" title="JD" src="https://github.com/sadofriod/sadofriod/blob/master/dist/logo.jpeg" />
+- 🔭 <div style="display:flex;align-items:center;">I’m currently working on <img height="50px" title="JD" src="https://github.com/sadofriod/sadofriod/blob/master/dist/logo.jpeg" /></div>
 - 🌱 I’m currently learning ![](https://img.shields.io/badge/lang-Rust-blueviolet)![](https://img.shields.io/badge/lang-webGL-blueviolet)![](https://img.shields.io/badge/lang-GLSL-blueviolet)
 - :rocket: I'm daily use ![](https://img.shields.io/badge/lang-javascript-orange) ![](https://img.shields.io/badge/framework-react-green)
 - 💬 Ask me about：<justlikeashes@gmail.com>

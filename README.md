@@ -11,6 +11,8 @@
 
 ![](https://github-readme-stats.vercel.app/api?username=sadofriod)
 
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sadofriod)
+
 
 
 ### Recent repo

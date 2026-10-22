@@ -1,39 +1,16 @@
-# Ashes Born
+# Hi there 👋 I'm Ashes
 
-**TypeScript / Agent engineer.** I build retrieval and agent systems in TypeScript — graph-based RAG, MCP servers, and the engines and interfaces around them.
+I'm a TypeScript engineer who enjoys building systems around search, knowledge, and agents. I started out in frontend architecture; these days, most of my time goes into graph-based RAG, MCP, and figuring out how to make AI systems more useful and dependable.
 
-Ex-frontend architect at JD (京东) and Compass Inc. (NYSE: COMP), last at Yellow (Web3 trading). Now full-time on [graphrag-ts](#-graphrag-ts--typescript-graphrag-with-evidence) and looking for **Agent / frontend engineering** roles (remote).
+- 🔭 I'm building [graphrag-ts](https://github.com/sadofriod/graphrag-ts), a TypeScript GraphRAG project for turning Markdown into a knowledge graph and answering questions with source evidence.
+- 🧭 Lately I'm exploring research intelligence over graph RAG, more stable incremental graph updates, and long-form writing agents that can keep track of a story across a million words.
+- ✍️ I write about [the index pipeline](https://blog.ashesborn.cloud/blog/article-48439fbce06b), [retrieval](https://blog.ashesborn.cloud/blog/article-41f472d98d25), [incremental builds](https://blog.ashesborn.cloud/blog/article-e98105d779d1), and [global queries](https://blog.ashesborn.cloud/blog/article-9b49bb9ddfb1).
+- 💬 Ask me about TypeScript, GraphRAG, MCP, React, or frontend architecture.
+- 📫 [Email](mailto:justlikeashes@gmail.com) · [Blog](https://blog.ashesborn.cloud/)
 
-📧 [justlikeashes@gmail.com](mailto:justlikeashes@gmail.com) · ✍️ [blog.ashesborn.cloud](https://blog.ashesborn.cloud/) · 💼 [graphrag-ts](https://github.com/sadofriod/graphrag-ts)
+Before focusing on agents and retrieval, I worked on frontend architecture and product engineering at JD, Compass, and Yellow. That background still shapes how I think about building things: the interesting part is getting the underlying system and the experience around it to work well together.
 
----
-
-## 🔭 graphrag-ts — TypeScript GraphRAG with evidence
-
-A reference GraphRAG implementation for Markdown corpora: build a knowledge graph in PostgreSQL, detect communities, and answer with evidence-backed hybrid retrieval — **without a Python runtime**.
-
-- **Build pipeline** — markdown-aware ingestion, entity / relationship / claim extraction, Leiden community detection, full + incremental builds that reuse unchanged community summaries.
-- **Retrieval** — vector + keyword + graph hybrid, plus corpus-wide Map-Reduce (global) queries; every answer is grounded in retrieved source chunks.
-- **MCP server** — isolated workspaces, Docker Compose deployment, connectable from any MCP client.
-- **Benchmark** — 10/12 strict hits and 95.8% combined lexical recall on a 12-question in-corpus set (5 chapters, self-run; small-scope, not a cross-project comparison).
-
-Writing on how it works: [index pipeline & incremental update](https://blog.ashesborn.cloud/blog/article-48439fbce06b) · [retrieval](https://blog.ashesborn.cloud/blog/article-41f472d98d25) · [incremental builds](https://blog.ashesborn.cloud/blog/article-e98105d779d1) · [global Map-Reduce queries](https://blog.ashesborn.cloud/blog/article-9b49bb9ddfb1)
-
-## 🛠 What I'm building now
-
-- **Research intelligence over graph RAG** — turning research reports (PDF → structured Markdown, tables preserved) into evidence-traced relationship intelligence, with confidence-weighted graph edges and multi-tier verification.
-- **Incremental topology stability** — local community recomputation, stable IDs, versioned snapshots, so a small input change doesn't drift the whole community structure.
-- **MCP distribution** — making graphrag-ts installable and discoverable from MCP clients (Registry, awesome-mcp-servers, mcp.so, LobeHub, Glama).
-- **Long-form fiction agent** — solving the "forgetting" and hallucination problems of million-word serialized writing.
-
-## 🧩 Selected earlier work
-
-- **京东视界 (jdv.jd.com)** — low-code data-visualization platform behind JD 11.11 / 6.18 campaigns and internal dashboards: state management, layered-cache history, component grouping, three.js / D3 visualization components, drag-and-realtime performance.
-- **Salesforce rule & UI engine (Compass)** — migrated auth for every Compass user by rendering Salesforce rules as a finite state machine, translating the Salesforce dialect to AST with PEG.js and executing it in a self-built sandbox.
-- **Incremental E2E testing (Compass)** — Git-diff + AST-based two-level test-to-code tracing to cut CI E2E runtime; React partial HMR in a MonoRepo via a shared React instance.
-- Patent: *React-based Turing-complete form rendering system* (ID 202110043108.9).
-
-## 🧰 Stack
+## 🧰 Things I use
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=white)
@@ -55,16 +32,14 @@ Writing on how it works: [index pipeline & incremental update](https://blog.ashe
 <details>
 <summary><b>中文简介</b></summary>
 
-TypeScript / Agent 工程师。8 年前端与架构经验：京东低代码可视化平台（京东视界 jdv.jd.com）→ Compass Inc.（NYSE: COMP，微前端 / Salesforce 规则与 UI 引擎 / E2E 增量测试）→ Yellow 欧洲 Web3 交易平台。持专利「基于 React 的图灵完备表单渲染系统」。
+你好，我是 Ashes，一名喜欢用 TypeScript 构建检索、知识图谱和 Agent 系统的工程师。早期主要做前端架构，现在把更多时间放在 GraphRAG、MCP，以及如何让 AI 系统更可靠、更实用。
 
-目前全职开发 [graphrag-ts](https://github.com/sadofriod/graphrag-ts)：TypeScript + PostgreSQL/pgvector 的 GraphRAG 引擎，覆盖 Markdown 摄取、实体/关系抽取、Leiden 社区检测、增量构建、向量+关键词+图结构混合检索、Map-Reduce 全局查询与 MCP 服务端。
+- 🔭 正在开发 [graphrag-ts](https://github.com/sadofriod/graphrag-ts)：把 Markdown 内容整理成知识图谱，并用原文证据回答问题。
+- 🧭 最近在探索研究报告的图谱分析、稳定的增量更新，以及能长期记住故事脉络的长篇写作 Agent。
+- ✍️ 写过一些实现记录：[索引管道](https://blog.ashesborn.cloud/blog/article-48439fbce06b)、[检索](https://blog.ashesborn.cloud/blog/article-41f472d98d25)、[增量构建](https://blog.ashesborn.cloud/blog/article-e98105d779d1)和[全局查询](https://blog.ashesborn.cloud/blog/article-9b49bb9ddfb1)。
+- 💬 欢迎聊 TypeScript、GraphRAG、MCP、React 或前端架构。
+- 📫 [邮件联系](mailto:justlikeashes@gmail.com) · [个人博客](https://blog.ashesborn.cloud/)
 
-技术文章：[索引管道与增量更新](https://blog.ashesborn.cloud/blog/article-48439fbce06b) · [检索实现](https://blog.ashesborn.cloud/blog/article-41f472d98d25) · [增量构建](https://blog.ashesborn.cloud/blog/article-e98105d779d1) · [Global Map-Reduce 查询](https://blog.ashesborn.cloud/blog/article-9b49bb9ddfb1)
-
-求职方向：Agent 开发 / 前端开发（远程）。邮箱 justlikeashes@gmail.com
+在专注检索和 Agent 之前，我曾在京东、Compass 和 Yellow 做前端架构与产品工程。那段经历也让我一直关注：底层系统和用户实际接触到的体验，怎样才能一起做好。
 
 </details>
-
----
-
-<sub>Open to Agent engineering and frontend architecture roles — remote, English or Chinese.</sub>

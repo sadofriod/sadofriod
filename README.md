@@ -46,6 +46,12 @@ Writing on how it works: [index pipeline & incremental update](https://blog.ashe
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?logo=d3&logoColor=white)
 
+## 📊 GitHub stats
+
+![](https://github-readme-stats.vercel.app/api?username=sadofriod)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sadofriod)
+
 <details>
 <summary><b>中文简介</b></summary>
 

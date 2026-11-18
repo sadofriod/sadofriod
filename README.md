@@ -4,9 +4,9 @@ I'm a TypeScript engineer who enjoys building systems around search, knowledge, 
 
 - 🔭 I'm building [graphrag-ts](https://github.com/sadofriod/graphrag-ts), a TypeScript GraphRAG project for turning Markdown into a knowledge graph and answering questions with source evidence.
 - 🧭 Lately I'm exploring research intelligence over graph RAG, more stable incremental graph updates, and long-form writing agents that can keep track of a story across a million words.
-- ✍️ I write about [the index pipeline](https://blog.ashesborn.cloud/blog/article-48439fbce06b), [retrieval](https://blog.ashesborn.cloud/blog/article-41f472d98d25), [incremental builds](https://blog.ashesborn.cloud/blog/article-e98105d779d1), and [global queries](https://blog.ashesborn.cloud/blog/article-9b49bb9ddfb1).
+- ✍️ I write about [the index pipeline](https://blog.ashesborn.cloud/blog/graphrag-typescript-indexing-pipeline-and-incremental-updates), [retrieval](https://blog.ashesborn.cloud/blog/graphrag-hybrid-retrieval-and-evidence-grounding-in-typescript), [incremental builds](https://blog.ashesborn.cloud/blog/graphrag-incremental-build-in-typescript-diffing-updates-and-pruning), and [global queries](https://blog.ashesborn.cloud/blog/graphrag-global-map-reduce-query-implementation) — the reading order for all of it is [the GraphRAG-in-TypeScript series](https://blog.ashesborn.cloud/blog/graphrag-in-typescript-the-series-index).
 - 💬 Ask me about TypeScript, GraphRAG, MCP, React, or frontend architecture.
-- 📫 [Email](mailto:justlikeashes@gmail.com) · [Blog](https://blog.ashesborn.cloud/)
+- 📫 [Email](mailto:justlikeashes@gmail.com) · [Blog](https://blog.ashesborn.cloud/) · [Work](https://ashesborn.cloud/)
 
 Before focusing on agents and retrieval, I worked on frontend architecture and product engineering at JD, Compass, and Yellow. That background still shapes how I think about building things: the interesting part is getting the underlying system and the experience around it to work well together.
 
